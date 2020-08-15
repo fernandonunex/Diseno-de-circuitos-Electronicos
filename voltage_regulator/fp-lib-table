@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name TPS61087DSCR)(type KiCad)(uri ${KISYSMOD}/TPS61087DSCR.pretty)(options "")(descr ""))
+)

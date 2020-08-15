@@ -1,4 +1,71 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R?
+U 1 1 5F37223B
+P 2000 1450
+F 0 "R?" H 2070 1496 50  0000 L CNN
+F 1 "R" H 2070 1405 50  0000 L CNN
+F 2 "" V 1930 1450 50  0001 C CNN
+F 3 "~" H 2000 1450 50  0001 C CNN
+	1    2000 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F372BD1
+P 2600 1450
+F 0 "C?" H 2715 1496 50  0000 L CNN
+F 1 "C" H 2715 1405 50  0000 L CNN
+F 2 "" H 2638 1300 50  0001 C CNN
+F 3 "~" H 2600 1450 50  0001 C CNN
+	1    2600 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:LM1117-3.3 U?
+U 1 1 5F373733
+P 2400 2450
+F 0 "U?" H 2400 2692 50  0000 C CNN
+F 1 "LM1117-3.3" H 2400 2601 50  0000 C CNN
+F 2 "" H 2400 2450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 2400 2450 50  0001 C CNN
+	1    2400 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B_Mini J?
+U 1 1 5F3745BC
+P 1100 1650
+F 0 "J?" H 1157 2117 50  0000 C CNN
+F 1 "USB_B_Mini" H 1157 2026 50  0000 C CNN
+F 2 "" H 1250 1600 50  0001 C CNN
+F 3 "~" H 1250 1600 50  0001 C CNN
+	1    1100 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L TPS61087DSCR:TPS61087DSCR U?
+U 1 1 5F3777EC
+P 3850 2050
+F 0 "U?" H 3850 2936 60  0000 C CNN
+F 1 "TPS61087DSCR" H 3850 2830 60  0000 C CNN
+F 2 "DSC0010A" H 3850 1990 60  0001 C CNN
+F 3 "" H 3850 2050 60  0000 C CNN
+	1    3850 2050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
