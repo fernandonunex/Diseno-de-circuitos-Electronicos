@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name L_SDR08055R6ML)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/L_SDR08055R6ML.lib)(options "")(descr ""))
+  (lib (name D_B340A13F)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/D_B340A13F.lib)(options "")(descr ""))
+)
